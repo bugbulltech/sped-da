@@ -1216,7 +1216,7 @@ class Dacte extends Common
             'size' => 6,
             'style' => '');
         $this->pTextBox($x, $y, $w, 4, $texto, $aFont, 'T', 'L', 0, '');
-        $texto = "DacteNFePHP ver. " . $this->version . "  Powered by NFePHP (GNU/GPLv3 GNU/LGPLv3) © www.nfephp.org";
+        $texto = "DacteNFePHP ver. " . $this->version;
         $aFont = array(
             'font' => $this->fontePadrao,
             'size' => 6,
