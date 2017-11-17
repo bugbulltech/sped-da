@@ -116,8 +116,8 @@ class DacteV3 extends Common
         $fonteDACTE = '',
         $mododebug = 2,
         $preVisualizar = false,
-        $nomeDesenvolvedor = 'Powered by NFePHP (GNU/GPLv3 GNU/LGPLv3) © www.nfephp.org',
-        $siteDesenvolvedor = 'http://www.nfephp.org'
+        $nomeDesenvolvedor = '',
+        $siteDesenvolvedor = ''
     ) {
     
         if (is_numeric($mododebug)) {
