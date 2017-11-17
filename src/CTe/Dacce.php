@@ -540,7 +540,7 @@ class Dacce extends Common
             'style' => 'I'
         );
         $this->pTextBox($x, $y, $w, 4, $texto, $aFont, 'T', 'L', 0, '');
-        $texto = "Dacce ver. " . $this->version . "  Powered by NFePHP (GNU/GPLv3 GNU/LGPLv3) © www.nfephp.org";
+        $texto = "Dacce ver. " . $this->version;
         $aFont = array(
             'font' => $this->fontePadrao,
             'size' => 6,
